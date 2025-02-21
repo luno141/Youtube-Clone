@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <title>Youtube CLone </title>
+     <link rel="shortcut icon" href="icons/youtube-logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="script" href="button.js">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            <img class="ham-menu" src="icons/hamburger-menu.svg" alt="">
+            <img class="yt-logo" src="icons/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="searchbox" type="text" placeholder="Search">
+         <button class="search-btn">
+            <img class="search-icon" src="icons/search.svg" alt="">
+            <div class="tooltip">Search</div>
+         </button>
+         <button class="voice-btn">
+            <img class="voice-icon" src="icons/voice-search-icon.svg" alt="">
+            <div class="tooltip">Search with your voice</div>
+         </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-container">
+                <img class="upload-icon" src="icons/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <img class="apps-icon" src="icons/youtube-apps.svg" alt="">
+            <div class="notif">
+                <img class="bell-icon" src="icons/bellicon.svg" alt="">
+                <div class="notif-count">3+</div>
+            </div>
+            <img class="profile-icon" src="channel/mypic.jpg" alt="">
+        </div>
+    </div>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="sidebar/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar/shorts.png" alt="">
+            <div>Shorts</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar/user.png" alt="">
+            <div>You</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="sidebar/download.png" alt="">
+            <div>Downloads</div>
+        </div>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                <a href="https://www.youtube.com/watch?v=1F3OGIFnW1k&pp=ygUUbWEgbWVpbGxldXJlIGVubmVtaWU%3D">
+                    <img class="thumbnail" src="thumbnails/arcane.webp">
+                </a>
+                <div class="vid-time">2:28</div>
+                </div>
+                    <div class="video-info-grid">
+                    <div class="channel-pic">
+                    <img class="profile-pic" src="channel/riot.jpg">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-title">
+                    Stromae, Pomme - “Ma Meilleure Ennemie” (from Arcane Season 2) [Official Visualizer]
+                    </p>
+                    <p class="video-creator">
+                    Riot Games Music &check;
+                    </p>
+                    <p class="video-stats">
+                    18M views &#183; 3 weeks ago
+                    </p>
+            </div>
+            </div>
+            </div>
+            
+            <div class="video-preview">
+                <div class="thumbnail-row"> 
+                    <a href="https://www.youtube.com/watch?v=S4LBcz-CK1s&t=16s&pp=ygURbGF0ZW50IGVwaXNvZGUgMTE%3D">
+                        <img class="thumbnail" src="thumbnails/latent.webp">
+                    </a>
+                    <div class="vid-time">1:15:28</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">  
+                <img class="profile-pic" src="channel/samay.jpg">
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                INDIA'S GOT LATENT | EP 11 ft.‪@bhartitv‬ ‪@LifeOfLimbachiyaas‬ ‪@TonyKakkar‬
+            </p>
+            <p class="video-creator">
+                Samay Raina &check;
+            </p>
+            <p class="video-stats">
+                25M views &#183; 6 days ago
+            </p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=SO35-bfcEWg&t=2s&pp=ygUlaW50ZXJuZXQgY2VsZWJyaXRpZXMgZXhwb3NlZCByZWFjdGlvbg%3D%3D">
+                        <img class="thumbnail" src="thumbnails/slay.webp">
+                    </a>
+                <div class="vid-time">12:28</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">
+                <img class="profile-pic" src="channel/slay.jpg"> 
+                </div>
+                <div class="video-info">   
+            <p class="video-title">
+                Internet Celebrities EXPOSED | ft. MrBeast & Indian Creators
+            </p>
+            <p class="video-creator">
+                Slayy Point &check;
+            </p>
+            <p class="video-stats">
+               2.9M views &#183; 1 day ago
+            </p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=xU71C6Y-5X4&t=20s&pp=ygUYZXZlcnlvbmUgaGF0ZXMgdGhpcyB3YWxs">
+                    <img class="thumbnail" src="thumbnails/grim.webp">
+                </a>
+                <div class="vid-time">18:11</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel/grim.jpg"> 
+                    </div>
+                <div class="video-info">   
+            <p class="video-title">
+                everyone hates this wall…
+            </p>
+            <p class="video-creator">
+                GrimLIVE &check;
+            </p>
+            <p class="video-stats">
+              5.1K views &#183; 3 hours ago
+            </p>
+            </div>
+            </div>
+            </div> 
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=Gj-jmBi0aK8&pp=ygUPYXNoZXMgYW5kIGJsb29k">
+                    <img class="thumbnail" src="thumbnails/ashesnblood.webp">
+                </a>
+                <div class="vid-time">2:28</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel/riot.jpg"> 
+                </div>
+            <div class="video-info"> 
+            <p class="video-title">
+                Woodkid - “To Ashes and Blood” (from Arcane Season 2) [Official Visualizer]
+            </p>
+            <p class="video-creator">
+                Riot Games Music &check;
+            </p>
+            <p class="video-stats">
+              12M views &#183; 1 month ago
+            </p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=FFWzIbkXxBU&pp=ygUfbWFydmVsIHJpdmFscyBjaW5lbWF0aWMgdHJhaWxlcg%3D%3D">
+                    <img class="thumbnail" src="thumbnails/marvel.webp">
+                </a>
+                <div class="vid-time">2:28</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel/marvel.jpg"> 
+                </div>
+            <div class="video-info">
+            <p class="video-title">
+                Marvel Rivals | Cinematic Trailer | No One Rivals Doom
+            </p>
+            <p class="video-creator">
+                Marvel Entertainment &check;
+            </p>
+            <p class="video-stats">
+              698K views &#183; 4 months ago
+            </p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=0sCV8j0C_uY&pp=ygUcaSBhdGUgdGhlIHdvcmxkJ3MgYmVzdCBwaXp6YQ%3D%3D">
+                    <img class="thumbnail" src="thumbnails/nickd.webp">
+                </a>
+                <div class="vid-time">18:28</div>
+                </div>
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel/nick.jpg"> 
+                </div>
+                <div class="video-info-grid">
+                <div class="video-info">
+            <p class="video-title">
+                I Ate The World's Best Pizza
+            </p>
+            <p class="video-creator">
+                Nick DiGiovanni &check;
+            </p>
+            <p class="video-stats">
+              14M views &#183; 1 year ago
+            </p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=h9Z4oGN89MU&pp=ygUPaG93IGRvIGdwdSB3b3Jr">
+                        <img class="thumbnail" src="thumbnails/gpu.webp">
+                    </a>
+                <div class="vid-time">18:48</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel/gpu.jpg"> 
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                How do Graphics Cards Work? Exploring GPU Architecture
+            </p>
+            <p class="video-creator">
+                Branch Education &check;
+            </p>
+            <p class="video-stats">
+              2.2M views &#183; 1 month ago
+            </p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=5FrhtahQiRc&pp=ygUeaGVhdnkgaXMgdGhlIGNyb3duIGxpbmtpbiBwYXJr">
+                    <img class="thumbnail" src="thumbnails/hvc.webp">
+                </a>
+                <div class="vid-time">4:08</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel/league.jpg"> 
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+                Heavy Is The Crown ft. Linkin Park (Official Music Video) | League of Legends Worlds 2024 Anthem
+            </p>
+            <p class="video-creator">
+                League of Legends &check;
+            </p>
+            <p class="video-stats">
+              67M views &#183; 2 months ago
+            </p>
+            </div>
+            </div>
+            </div>
+        
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=QoqokgcX96M&t=1s&pp=ygUPY2Fycnkga2kgc2hhYWRp">
+                    <img class="thumbnail" src="thumbnails/carry.webp">
+                </a>
+                <div class="vid-time">9:48</div>
+                </div>
+                <div class="video-info-grid">
+                <div class="channel-pic">
+                    <img class="profile-pic" src="channel/carry.jpg"> 
+                </div>
+                <div class="video-info">
+            <p class="video-title">
+              CARRY KI SHAADI 😭 | Q&A 2024 CARRYMINATI
+            </p>
+            <p class="video-creator">
+                CarryMinati &check;
+            </p>
+            <p class="video-stats">
+              5.8M views &#183; 9 hours ago
+            </p>
+            </div>
+            </div>
+        </div>
+
+        
+        <div class="video-preview">
+            <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=TPsLkO6w8pA&t=52s&pp=ygUFdGVldHM%3D">
+                <img class="thumbnail" src="thumbnails/teets.webp">
+            </a>
+            <div class="vid-time">9:48</div>
+            </div>
+            <div class="video-info-grid">
+            <div class="channel-pic">
+                <img class="profile-pic" src="channel/teets.jpg"> 
+            </div>
+            <div class="video-info">
+        <p class="video-title">
+            Europe Has INVENTED a NEW INITIATOR META!
+        </p>
+        <p class="video-creator">
+            Teets &check;
+        </p>
+        <p class="video-stats">
+            148K views &#183; 6 days ago
+        </p>
+        </div>
+        </div>
+    </div>
+
+    
+    <div class="video-preview">
+        <div class="thumbnail-row">
+        <a href="https://www.youtube.com/watch?v=y-nO4KboV6c">
+            <img class="thumbnail" src="thumbnails/eggster.webp">
+        </a>
+        <div class="vid-time">9:48</div>
+        </div>
+        <div class="video-info-grid">
+        <div class="channel-pic">
+            <img class="profile-pic" src="channel/eggster.jpg"> 
+        </div>
+        <div class="video-info">
+    <p class="video-title">
+        Girl Pro Hates My Yoru
+    </p>
+    <p class="video-creator">
+        Eggsterr &check;
+    </p>
+    <p class="video-stats">
+      7.8K views &#183; 2 hours ago
+    </p>
+    </div>
+    </div>
+</div>
+    </section>
+    </main>
+</body>
+</html>
